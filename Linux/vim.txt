@@ -1,0 +1,48 @@
+the quick brown fox jumps over the lazy dog near the riverbank
+
+Delete this entire line
+Delete this entire line
+Delete this entire line
+
+Copy this line and paste it below
+Copy this line and paste it below
+
+this word is wrong
+Linus Torvalds craeted Linux
+this line needs rewriting
+
+Remove DELETE this word
+Remove DELETE this word
+Remove DELETE this word
+Remove DELETE this word
+
+The Linux mascot is a penguin named tux.
+tux was designed by Larry Ewing in 1996.
+Linus Torvalds chose a penguin because one bit him at a zoo.
+Today tux is recognised worldwide as the face of Linux.
+Some say tux stands for Torvalds UniX.
+Even the zoo in Canberra has a sign about the famous penguin.
+
+Delete me with dd, then undo with u
+Delete me with dd, then undo with u
+Change this word with cw, then undo with u
+
+line to delete 1
+line to delete 2
+line to delete 3
+line to delete 4
+
+line to copy 1
+line to copy 2
+line to copy 3
+
+if (condition) { doSomething(); }
+
+<title>Change this title text</title>
+<p>Replace everything inside this paragraph tag</p>
+
+"Change the text inside these double quotes"
+'Change the text inside these single quotes'
+
+callFunction("replace this argument")
+calculate(100 + 200)
