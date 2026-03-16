@@ -1,3 +1,4 @@
 # Graduate program.
 
-## Here external resources will be displayed
+## Day 1
+ - State of AI : [https://github.com/weimenglee/StateOfAI](https://github.com/weimenglee/StateOfAI)
