@@ -1,0 +1,45 @@
+create database forjoins;
+use forjoins;
+-- Create the Departments table
+CREATE TABLE Departments (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(50)
+);
+
+-- Create the Employees table
+CREATE TABLE Employees (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    dept_id INT
+);
+
+-- Insert Data
+INSERT INTO Departments VALUES (10, 'Engineering'), (20, 'Sales'), (30, 'Marketing');
+INSERT INTO Employees VALUES (1, 'Alice', 10), (2, 'Bob', 20), (3, 'Charlie', NULL);
+
+select * from Employees;
+select * from Departments;
+
+-- Inner Join
+SELECT E.name, D.dept_name
+FROM Employees E
+INNER JOIN Departments D ON E.dept_id = D.dept_id;
+
+-- LEFT JOIN
+SELECT E.name, D.dept_name
+FROM Employees E
+LEFT JOIN Departments D ON E.dept_id = D.dept_id;
+
+-- Right Join
+SELECT E.name, D.dept_name
+FROM Employees E
+RIGHT JOIN Departments D ON E.dept_id = D.dept_id;
+
+-- Full outer join
+SELECT E.name, D.dept_name
+FROM Employees E
+LEFT JOIN Departments D ON E.dept_id = D.dept_id
+UNION
+SELECT E.name, D.dept_name
+FROM Employees E
+RIGHT JOIN Departments D ON E.dept_id = D.dept_id;
