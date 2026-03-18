@@ -1,0 +1,207 @@
+Starter SQL Queries (Only WHERE Clause)
+---------AUTHORS Table
+1. Find authors from a specific city
+SELECT * 
+FROM authors
+WHERE city = 'New York';
+2. Authors from a specific state
+SELECT * 
+FROM authors
+WHERE state = 'CA';
+3. Authors with contract = 1
+SELECT * 
+FROM authors
+WHERE contract = 1;
+
+----------TITLES Table
+4. Books with price greater than 20
+SELECT * 
+FROM titles
+WHERE price > 20;
+5. Books of type 'business'
+SELECT * 
+FROM titles
+WHERE type = 'business';
+6. Books with advance between 5000 and 10000
+SELECT * 
+FROM titles
+WHERE advance BETWEEN 5000 AND 10000;
+
+-----------EMPLOYEES Table
+7. Employees with job_id = 1
+SELECT * 
+FROM employee
+WHERE job_id = 1;
+8. Employees hired after a certain date
+SELECT * 
+FROM employee
+WHERE hire_date > '2020-01-01';
+9. Employees with specific last name
+SELECT * 
+FROM employee
+WHERE lname = 'Smith';
+
+----------JOBS Table
+10. Jobs with max level greater than 200
+SELECT * 
+FROM jobs
+WHERE max_lvl > 200;
+11. Jobs with description like 'Manager'
+SELECT * 
+FROM jobs
+WHERE job_desc LIKE '%Manager%';
+
+---------- SALES Table
+12. Sales with quantity more than 50
+SELECT * 
+FROM sales
+WHERE qty > 50;
+13. Sales on a specific date
+SELECT * 
+FROM sales
+WHERE ord_date = '2023-10-01';
+
+?------------ STORES Table
+14. Stores in a specific city
+SELECT * 
+FROM stores
+WHERE city = 'Los Angeles';
+15. Stores in CA or NY
+SELECT * 
+FROM stores
+WHERE state IN ('CA', 'NY');
+
+------------ PUBLISHERS Table
+16. Publishers from USA
+SELECT * 
+FROM publishers
+WHERE country = 'USA';
+
+--------- DISCOUNTS Table
+17. Discounts greater than 10%
+SELECT * 
+FROM discounts
+WHERE discount > 10;
+
+---------- ROYSCHED Table
+18. Royalty between range
+SELECT * 
+FROM roysched
+WHERE royalty BETWEEN 10 AND 20;
+
+-------- TITLEAUTHOR Table
+19. Authors with royalty percentage > 50
+SELECT * 
+FROM titleauthor
+WHERE royaltyper > 50;
+
+-------- AUTHORS Table
+1. Names starting with 'A'
+SELECT * 
+FROM authors
+WHERE au_fname LIKE 'A%';
+2. Names ending with 'n'
+SELECT * 
+FROM authors
+WHERE au_lname LIKE '%n';
+3. Authors from multiple states
+SELECT * 
+FROM authors
+WHERE state IN ('CA', 'NY', 'TX');
+4. Authors with no state information
+SELECT * 
+FROM authors
+WHERE state IS NULL;
+5. Authors with phone number present
+SELECT * 
+FROM authors
+WHERE phone IS NOT NULL;
+6. Authors from CA with contract
+SELECT * 
+FROM authors
+WHERE state = 'CA' AND contract = 1;
+
+--------TITLES Table
+7. Titles starting with 'The'
+SELECT * 
+FROM titles
+WHERE title LIKE 'The%';
+8. Titles containing 'SQL'
+SELECT * 
+FROM titles
+WHERE title LIKE '%SQL%';
+9. Books of selected types
+SELECT * 
+FROM titles
+WHERE type IN ('business', 'psychology', 'mod_cook');
+10. Books where price is not available
+SELECT * 
+FROM titles
+WHERE price IS NULL;
+11. Books with price available and > 15
+SELECT * 
+FROM titles
+WHERE price IS NOT NULL AND price > 15;
+
+-------- EMPLOYEE Table
+12. Employees with first name starting with 'J'
+SELECT * 
+FROM employee
+WHERE fname LIKE 'J%';
+13. Employees in specific job roles
+SELECT * 
+FROM employee
+WHERE job_id IN (1, 2, 3);
+14. Employees without middle name
+SELECT * 
+FROM employee
+WHERE minit IS NULL;
+15. Employees with middle name and specific job
+SELECT * 
+FROM employee
+WHERE minit IS NOT NULL AND job_id = 2;
+
+-------- STORES Table
+16. Stores with name containing 'Book'
+SELECT * 
+FROM stores
+WHERE stor_name LIKE '%Book%';
+17. Stores in selected states
+SELECT * 
+FROM stores
+WHERE state IN ('CA', 'WA');
+18. Stores with address present
+SELECT * 
+FROM stores
+WHERE stor_address IS NOT NULL;
+
+-------- PUBLISHERS Table
+19. Publishers with name starting with 'P'
+SELECT * 
+FROM publishers
+WHERE pub_name LIKE 'P%';
+20. Publishers from specific countries
+SELECT * 
+FROM publishers
+WHERE country IN ('USA', 'UK');
+
+-------- SALES Table
+21. Orders with ID starting with 'A'
+SELECT * 
+FROM sales
+WHERE ord_num LIKE 'A%';
+22. Sales with qty in specific values
+SELECT * 
+FROM sales
+WHERE qty IN (10, 20, 30);
+
+-------- DISCOUNTS Table
+23. Discount types containing 'Holiday'
+SELECT * 
+FROM discounts
+WHERE discounttype LIKE '%Holiday%';
+24. Discounts with low quantity NULL
+SELECT * 
+FROM discounts
+WHERE lowqty IS NULL;
+

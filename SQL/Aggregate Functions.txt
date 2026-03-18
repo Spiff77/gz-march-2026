@@ -1,0 +1,87 @@
+🔹 AGGREGATE SQL QUERIES
+📘 AUTHORS Table
+1. Count authors per state
+SELECT state, COUNT(*) AS total_authors
+FROM authors
+GROUP BY state;
+
+2. Count authors per city (only cities with more than 2 authors)
+SELECT city, COUNT(*) AS total_authors
+FROM authors
+GROUP BY city
+HAVING COUNT(*) > 2;
+
+📗 TITLES Table
+3. Average price of books by type
+SELECT type, AVG(price) AS avg_price
+FROM titles
+GROUP BY type;
+
+4. Maximum price per type
+SELECT type, MAX(price) AS max_price
+FROM titles
+GROUP BY type;
+
+5. Types where average price > 20
+SELECT type, AVG(price) AS avg_price
+FROM titles
+GROUP BY type
+HAVING AVG(price) > 20;
+
+6. Total advance per type
+SELECT type, SUM(advance) AS total_advance
+FROM titles
+GROUP BY type;
+
+📙 SALES Table
+7. Total quantity sold per store
+SELECT stor_id, SUM(qty) AS total_sales
+FROM sales
+GROUP BY stor_id;
+
+8. Stores with total sales > 100
+SELECT stor_id, SUM(qty) AS total_sales
+FROM sales
+GROUP BY stor_id
+HAVING SUM(qty) > 100;
+
+9. Average quantity per order
+SELECT ord_num, AVG(qty) AS avg_qty
+FROM sales
+GROUP BY ord_num;
+
+📕 EMPLOYEE Table
+10. Number of employees per job
+SELECT job_id, COUNT(*) AS total_employees
+FROM employee
+GROUP BY job_id;
+
+11. Job IDs with more than 1 employee
+SELECT job_id, COUNT(*) AS total_employees
+FROM employee
+GROUP BY job_id
+HAVING COUNT(*) > 1;
+
+📒 DISCOUNTS Table
+12. Average discount per store
+SELECT stor_id, AVG(discount) AS avg_discount
+FROM discounts
+GROUP BY stor_id;
+
+13. Stores with max discount greater than 15
+SELECT stor_id, MAX(discount) AS max_discount
+FROM discounts
+GROUP BY stor_id
+HAVING MAX(discount) > 15;
+
+📓 ROYSCHED Table
+14. Average royalty per title
+SELECT title_id, AVG(royalty) AS avg_royalty
+FROM roysched
+GROUP BY title_id;
+
+15. Titles with total royalty more than 30
+SELECT title_id, SUM(royalty) AS total_royalty
+FROM roysched
+GROUP BY title_id
+HAVING SUM(royalty) > 30;
