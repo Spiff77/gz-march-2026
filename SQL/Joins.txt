@@ -1,47 +1,47 @@
-JOIN Queries (Based on Your ER Diagram)
-📘 1. Authors and their book titles
+-- JOIN Queries (Based on Your ER Diagram)
+-- 📘 1. Authors and their book titles
 SELECT a.au_fname, a.au_lname, t.title
 FROM authors a
 INNER JOIN titleauthor ta ON a.au_id = ta.au_id
 INNER JOIN titles t ON ta.title_id = t.title_id;
-📗 2. Titles with publisher name
+-- 📗 2. Titles with publisher name
 SELECT t.title, p.pub_name
 FROM titles t
 INNER JOIN publishers p ON t.pub_id = p.pub_id;
-📙 3. Employees with their job description
+-- 📙 3. Employees with their job description
 SELECT e.fname, e.lname, j.job_desc
 FROM employee e
 INNER JOIN jobs j ON e.job_id = j.job_id;
-📕 4. Sales with store name
+-- 📕 4. Sales with store name
 SELECT s.ord_num, s.qty, st.stor_name
 FROM sales s
 INNER JOIN stores st ON s.stor_id = st.stor_id;
-📒 5. Sales with book titles
+-- 📒 5. Sales with book titles
 SELECT s.ord_num, t.title, s.qty
 FROM sales s
 INNER JOIN titles t ON s.title_id = t.title_id;
-📓 6. Authors and their royalty percentage
+-- 📓 6. Authors and their royalty percentage
 SELECT a.au_fname, t.title, ta.royaltyper
 FROM authors a
 INNER JOIN titleauthor ta ON a.au_id = ta.au_id
 INNER JOIN titles t ON ta.title_id = t.title_id;
-📔 7. Titles with sales quantity
+-- 📔 7. Titles with sales quantity
 SELECT t.title, s.qty
 FROM titles t
 INNER JOIN sales s ON t.title_id = s.title_id;
-📘 8. LEFT JOIN – All authors with titles (including those without books)
+-- 📘 8. LEFT JOIN – All authors with titles (including those without books)
 SELECT a.au_fname, a.au_lname, t.title
 FROM authors a
 LEFT JOIN titleauthor ta ON a.au_id = ta.au_id
 LEFT JOIN titles t ON ta.title_id = t.title_id;
 
-👉 Shows authors even if they haven’t written any book
+-- 👉 Shows authors even if they haven’t written any book
 
-📗 9. LEFT JOIN – All stores with sales (including no sales)
+-- 📗 9. LEFT JOIN – All stores with sales (including no sales)
 SELECT st.stor_name, s.qty
 FROM stores st
 LEFT JOIN sales s ON st.stor_id = s.stor_id;
-📙 10. Publishers and their books
+-- 📙 10. Publishers and their books
 SELECT p.pub_name, t.title
 FROM publishers p
 INNER JOIN titles t ON p.pub_id = t.pub_id;
