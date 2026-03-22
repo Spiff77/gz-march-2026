@@ -1,42 +1,49 @@
+# Claude
+.claude/
+
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-._*
-.Spotlight-V100
-.Trashes
 
-# Windows
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.local
 
 # Java
 *.class
 *.jar
 *.war
 *.ear
-*.nar
-*.tar.gz
-*.rar
-hs_err_pid*
-target/
-.classpath
-.project
-.settings/
-*.iml
-*.ipr
-*.iws
-.idea/
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.npm
-.yarn-integrity
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Archives
+*.zip
