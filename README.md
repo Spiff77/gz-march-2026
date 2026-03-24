@@ -1,7 +1,7 @@
 # Graduate program.
 
 ## Others
-https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=407b266d576c4d27
+https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d
 
 ## Day 1 State of AI
  - State of AI Slides : https://github.com/Spiff77/gz-march-2026/blob/main/State%20of%20AI%20-%20Slides%20v1.1.pdf
