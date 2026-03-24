@@ -1,5 +1,8 @@
 # Graduate program.
 
+## Others
+https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=407b266d576c4d27
+
 ## Day 1 State of AI
  - State of AI Slides : https://github.com/Spiff77/gz-march-2026/blob/main/State%20of%20AI%20-%20Slides%20v1.1.pdf
  - State of AI Source Code: [https://github.com/weimenglee/StateOfAI](https://github.com/weimenglee/StateOfAI)
@@ -24,3 +27,8 @@
 ## Day 5
  - Networking Slides : https://github.com/Spiff77/gz-march-2026/blob/main/networking/Slides%20on%20Networking%20v1.1.pdf
  - Networking Source Code : https://github.com/Spiff77/gz-march-2026/tree/main/networking
+
+## Days 6–9 Java + Spring Boot (3.5 days)
+ - [Training Curriculum & Labs](java-springboot/README.md) — 13 chapters, 12 labs, full demo app
+ - **Goal:** Build an Employee Management REST API with Spring Boot + JPA, connected to a JS/HTML frontend
+ - **Demo app:** `cd java-springboot/demo-app && mvn spring-boot:run`
