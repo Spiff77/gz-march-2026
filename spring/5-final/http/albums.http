@@ -1,0 +1,53 @@
+### Get all albums
+GET http://localhost:8080/albums
+
+###
+
+### Get album by ID
+GET http://localhost:8080/albums/1
+
+###
+
+### Create a new album (with existing artist reference)
+POST http://localhost:8080/albums
+Content-Type: application/json
+
+{
+  "title": "Let It Be",
+  "numberOfTracks": 12,
+  "artist": {
+    "id": 1
+  }
+}
+
+###
+
+### Create album without artist (will work but artist will be null)
+POST http://localhost:8080/albums
+Content-Type: application/json
+
+{
+  "title": "Standalone Album",
+  "numberOfTracks": 10
+}
+
+###
+
+### Update an album
+PUT http://localhost:8080/albums/1
+Content-Type: application/json
+
+{
+  "title": "Abbey Road (Remastered)",
+  "numberOfTracks": 17,
+  "artist": {
+    "id": 1
+  }
+}
+
+###
+
+### Delete an album
+DELETE http://localhost:8080/albums/2
+
+###

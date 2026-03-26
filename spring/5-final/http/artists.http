@@ -1,0 +1,58 @@
+### Get all artists
+GET http://localhost:8080/artists
+
+###
+
+### Get artist by ID
+GET http://localhost:8080/artists/1
+
+###
+
+### Create a new artist
+POST http://localhost:8080/artists
+Content-Type: application/json
+
+{
+  "name": "The Beatles",
+  "description": "Legendary British rock band from Liverpool"
+}
+
+###
+
+### Create another artist
+POST http://localhost:8080/artists
+Content-Type: application/json
+
+{
+  "name": "Pink Floyd",
+  "description": "Progressive rock band known for concept albums"
+}
+
+###
+
+### Update an artist
+PUT http://localhost:8080/artists/1
+Content-Type: application/json
+
+{
+  "name": "The Beatles",
+  "description": "The most influential band in history"
+}
+
+###
+
+### Delete an artist (will fail if artist has albums)
+DELETE http://localhost:8080/artists/2
+
+###
+
+### Add an album to an artist
+POST http://localhost:8080/artists/1/albums
+Content-Type: application/json
+
+{
+  "title": "Abbey Road",
+  "numberOfTracks": 17
+}
+
+###
