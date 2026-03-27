@@ -32,3 +32,6 @@ https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=
  - [Training Curriculum & Labs](java-springboot/README.md) — 13 chapters, 12 labs, full demo app
  - **Goal:** Build an Employee Management REST API with Spring Boot + JPA, connected to a JS/HTML frontend
  - **Demo app:** `cd java-springboot/demo-app && mvn spring-boot:run`
+
+## Day 10
+ - Presentation Guidelines - https://github.com/Spiff77/gz-march-2026/blob/main/Presentation%20Guidelines.pdf
