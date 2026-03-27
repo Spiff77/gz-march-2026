@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevHub - Developer Profiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <span class="brand-icon">&lt;/&gt;</span>
+                <span class="brand-name">DevHub</span>
+            </div>
+            <nav>
+                <a href="#">Discover</a>
+                <a href="#" class="active">Developers</a>
+                <a href="#">Projects</a>
+                <a href="#">Jobs</a>
+            </nav>
+            <div class="header-actions">
+                <input type="search" placeholder="Search developers...">
+                <button class="btn-primary">Sign In</button>
+            </div>
+        </header>
+
+        <main>
+            <aside class="filters">
+                <h3>Filters</h3>
+                <div class="filter-group">
+                    <h4>Skills</h4>
+                    <label><input type="checkbox" checked> JavaScript</label>
+                    <label><input type="checkbox"> Python</label>
+                    <label><input type="checkbox" checked> React</label>
+                    <label><input type="checkbox"> Node.js</label>
+                    <label><input type="checkbox"> TypeScript</label>
+                </div>
+                <div class="filter-group">
+                    <h4>Experience</h4>
+                    <label><input type="radio" name="exp"> Junior (0-2 yrs)</label>
+                    <label><input type="radio" name="exp" checked> Mid (2-5 yrs)</label>
+                    <label><input type="radio" name="exp"> Senior (5+ yrs)</label>
+                </div>
+                <div class="filter-group">
+                    <h4>Availability</h4>
+                    <label><input type="checkbox" checked> Open to work</label>
+                    <label><input type="checkbox"> Freelance</label>
+                </div>
+                <button class="btn-secondary">Apply Filters</button>
+            </aside>
+
+            <section class="content">
+                <div class="content-header">
+                    <h1>Featured Developers</h1>
+                    <p class="results-count">Showing 6 of 248 developers</p>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="dev-card">
+                        <div class="card-header">
+                            <div class="avatar">SK</div>
+                            <span class="status available">Available</span>
+                        </div>
+                        <h2>Sarah Kim</h2>
+                        <p class="role">Full Stack Developer</p>
+                        <p class="location">📍 San Francisco, CA</p>
+                        <div class="skills">
+                            <span class="skill">React</span>
+                            <span class="skill">Node.js</span>
+                            <span class="skill">PostgreSQL</span>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value">127</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">4.9</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">View Profile →</a>
+                    </article>
+
+                    <article class="dev-card featured">
+                        <div class="card-header">
+                            <div class="avatar">MJ</div>
+                            <span class="status available">Available</span>
+                        </div>
+                        <span class="badge">Top Rated</span>
+                        <h2>Marcus Johnson</h2>
+                        <p class="role">Backend Engineer</p>
+                        <p class="location">📍 Austin, TX</p>
+                        <div class="skills">
+                            <span class="skill">Python</span>
+                            <span class="skill">Django</span>
+                            <span class="skill">AWS</span>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value">89</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">5.0</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">View Profile →</a>
+                    </article>
+
+                    <article class="dev-card">
+                        <div class="card-header">
+                            <div class="avatar">EL</div>
+                            <span class="status busy">Busy</span>
+                        </div>
+                        <h2>Emma Liu</h2>
+                        <p class="role">Frontend Developer</p>
+                        <p class="location">📍 New York, NY</p>
+                        <div class="skills">
+                            <span class="skill">Vue.js</span>
+                            <span class="skill">TypeScript</span>
+                            <span class="skill">Sass</span>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value">64</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">4.8</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">View Profile →</a>
+                    </article>
+
+                    <article class="dev-card">
+                        <div class="card-header">
+                            <div class="avatar">AP</div>
+                            <span class="status available">Available</span>
+                        </div>
+                        <h2>Alex Patel</h2>
+                        <p class="role">DevOps Engineer</p>
+                        <p class="location">📍 Seattle, WA</p>
+                        <div class="skills">
+                            <span class="skill">Kubernetes</span>
+                            <span class="skill">Docker</span>
+                            <span class="skill">Terraform</span>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value">95</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">4.7</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">View Profile →</a>
+                    </article>
+
+                    <article class="dev-card">
+                        <div class="card-header">
+                            <div class="avatar">JM</div>
+                            <span class="status available">Available</span>
+                        </div>
+                        <h2>Julia Martinez</h2>
+                        <p class="role">Mobile Developer</p>
+                        <p class="location">📍 Miami, FL</p>
+                        <div class="skills">
+                            <span class="skill">React Native</span>
+                            <span class="skill">Swift</span>
+                            <span class="skill">Firebase</span>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value">43</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">4.9</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">View Profile →</a>
+                    </article>
+
+                    <article class="dev-card">
+                        <div class="card-header">
+                            <div class="avatar">RW</div>
+                            <span class="status busy">Busy</span>
+                        </div>
+                        <h2>Ryan Wilson</h2>
+                        <p class="role">Data Engineer</p>
+                        <p class="location">📍 Chicago, IL</p>
+                        <div class="skills">
+                            <span class="skill">Python</span>
+                            <span class="skill">Spark</span>
+                            <span class="skill">Airflow</span>
+                        </div>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-value">71</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">4.6</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <a href="#" class="card-link">View Profile →</a>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <button class="page-btn" disabled>← Previous</button>
+                    <span class="page-numbers">
+                        <a href="#" class="page active">1</a>
+                        <a href="#" class="page">2</a>
+                        <a href="#" class="page">3</a>
+                        <span class="ellipsis">...</span>
+                        <a href="#" class="page">25</a>
+                    </span>
+                    <button class="page-btn">Next →</button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

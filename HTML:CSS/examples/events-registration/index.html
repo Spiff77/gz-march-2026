@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConf 2025 - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">TechConf<span class="year">2025</span></span>
+            </div>
+            <p class="event-date">March 15-17, 2025 • Singapore</p>
+        </header>
+
+        <main>
+            <div class="intro">
+                <h1>Register for TechConf 2025</h1>
+                <p>Join 5,000+ developers, designers, and tech leaders for three days of inspiring talks, hands-on workshops, and networking opportunities.</p>
+            </div>
+
+            <form class="registration-form" action="#" method="post">
+                
+                <fieldset class="form-section">
+                    <legend>Personal Information</legend>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name <span class="required">*</span></label>
+                            <input type="text" id="firstName" name="firstName" required placeholder="John">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name <span class="required">*</span></label>
+                            <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="john.doe@example.com">
+                        <span class="hint">We'll send your confirmation and ticket to this email</span>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+65 9123 4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Acme Inc.">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jobTitle">Job Title</label>
+                        <input type="text" id="jobTitle" name="jobTitle" placeholder="Senior Developer">
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-section">
+                    <legend>Ticket Selection</legend>
+
+                    <div class="ticket-options">
+                        <label class="ticket-option">
+                            <input type="radio" name="ticketType" value="standard" checked>
+                            <div class="ticket-card">
+                                <div class="ticket-header">
+                                    <span class="ticket-name">Standard Pass</span>
+                                    <span class="ticket-price">$299</span>
+                                </div>
+                                <ul class="ticket-features">
+                                    <li>✓ Access to all keynotes</li>
+                                    <li>✓ Access to all sessions</li>
+                                    <li>✓ Lunch included (3 days)</li>
+                                    <li>✓ Conference swag bag</li>
+                                </ul>
+                            </div>
+                        </label>
+
+                        <label class="ticket-option">
+                            <input type="radio" name="ticketType" value="premium">
+                            <div class="ticket-card">
+                                <span class="popular-badge">Most Popular</span>
+                                <div class="ticket-header">
+                                    <span class="ticket-name">Premium Pass</span>
+                                    <span class="ticket-price">$499</span>
+                                </div>
+                                <ul class="ticket-features">
+                                    <li>✓ Everything in Standard</li>
+                                    <li>✓ Workshop access (2 sessions)</li>
+                                    <li>✓ VIP networking lounge</li>
+                                    <li>✓ Speaker meet & greet</li>
+                                </ul>
+                            </div>
+                        </label>
+
+                        <label class="ticket-option">
+                            <input type="radio" name="ticketType" value="vip">
+                            <div class="ticket-card">
+                                <div class="ticket-header">
+                                    <span class="ticket-name">VIP Pass</span>
+                                    <span class="ticket-price">$899</span>
+                                </div>
+                                <ul class="ticket-features">
+                                    <li>✓ Everything in Premium</li>
+                                    <li>✓ Unlimited workshop access</li>
+                                    <li>✓ Private dinner with speakers</li>
+                                    <li>✓ 1-year community membership</li>
+                                </ul>
+                            </div>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-section">
+                    <legend>Session Preferences</legend>
+
+                    <p class="section-description">Select the tracks you're most interested in (choose up to 3):</p>
+
+                    <div class="checkbox-grid">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="frontend">
+                            <span class="checkbox-label">Frontend Development</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="backend">
+                            <span class="checkbox-label">Backend & APIs</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="devops">
+                            <span class="checkbox-label">DevOps & Cloud</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="mobile">
+                            <span class="checkbox-label">Mobile Development</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="ai">
+                            <span class="checkbox-label">AI & Machine Learning</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="security">
+                            <span class="checkbox-label">Security</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="ux">
+                            <span class="checkbox-label">UX & Design</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="tracks" value="leadership">
+                            <span class="checkbox-label">Tech Leadership</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-section">
+                    <legend>Dietary & Accessibility</legend>
+
+                    <div class="form-group">
+                        <label for="dietary">Dietary Requirements</label>
+                        <select id="dietary" name="dietary">
+                            <option value="">-- Select if applicable --</option>
+                            <option value="none">No restrictions</option>
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                            <option value="halal">Halal</option>
+                            <option value="kosher">Kosher</option>
+                            <option value="gluten-free">Gluten-free</option>
+                            <option value="other">Other (specify below)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="accessibility">Accessibility Needs</label>
+                        <textarea id="accessibility" name="accessibility" rows="3" placeholder="Please let us know if you have any accessibility requirements (wheelchair access, sign language interpreter, etc.)"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comments">Additional Comments</label>
+                        <textarea id="comments" name="comments" rows="3" placeholder="Any other information you'd like to share with us..."></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-section">
+                    <legend>Terms & Communication</legend>
+
+                    <div class="checkbox-group">
+                        <label class="checkbox-single">
+                            <input type="checkbox" name="terms" required>
+                            <span>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a> <span class="required">*</span></span>
+                        </label>
+
+                        <label class="checkbox-single">
+                            <input type="checkbox" name="newsletter">
+                            <span>Subscribe to our newsletter for tech updates and future event announcements</span>
+                        </label>
+
+                        <label class="checkbox-single">
+                            <input type="checkbox" name="photography">
+                            <span>I consent to being photographed/filmed during the event for promotional purposes</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="form-actions">
+                    <p class="total-price">Total: <strong>$299</strong></p>
+                    <div class="buttons">
+                        <button type="reset" class="btn btn-secondary">Clear Form</button>
+                        <button type="submit" class="btn btn-primary">Complete Registration</button>
+                    </div>
+                </div>
+
+            </form>
+        </main>
+
+        <footer>
+            <p>Questions? Contact us at <a href="mailto:info@techconf.io">info@techconf.io</a></p>
+            <p class="copyright">© 2025 TechConf. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
