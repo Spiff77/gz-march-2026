@@ -3,7 +3,7 @@
 ## Project
  - [https://bitbucket.org/neuedamats/portfoliomanager/src/additional_projects/README.md](https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md)
  - [https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md](https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md)
-
+ - Presentation Guidelines:  [https://github.com/Spiff77/gz-march-2026/blob/main/Presentation%20Guidelines.pdf](https://github.com/Spiff77/gz-march-2026/blob/main/Presentation%20Guidelines.pdf)
 
 ## Others
  - Spotify playlist:[https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d] (https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d)
@@ -41,4 +41,3 @@
  - [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp)
  - [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
  - [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
-
