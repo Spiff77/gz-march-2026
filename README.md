@@ -1,7 +1,12 @@
 # Graduate program.
 
+## Project
+ - [https://bitbucket.org/neuedamats/portfoliomanager/src/additional_projects/README.md](https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md)
+ - [https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md](https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md)
+
+
 ## Others
-https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d
+ - Spotify playlist:[https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d] (https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d)
 
 ## Day 1 State of AI
  - State of AI Slides : https://github.com/Spiff77/gz-march-2026/blob/main/State%20of%20AI%20-%20Slides%20v1.1.pdf
@@ -24,11 +29,16 @@ https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=
 - [https://www.blooket.com/](https://www.blooket.com/) Turn database quizzes into fun multiplayer classroom games  
 - [https://www.gimkit.com/](https://www.gimkit.com/) Interactive quiz platform where students earn points while learning SQL  
  
-## Day 5
+## Day 5 Networking
  - Networking Slides : https://github.com/Spiff77/gz-march-2026/blob/main/networking/Slides%20on%20Networking%20v1.1.pdf
  - Networking Source Code : https://github.com/Spiff77/gz-march-2026/tree/main/networking
 
 ## Days 6–9 Java + Spring Boot (3.5 days)
  - [Training Curriculum & Labs](java-springboot/README.md) — 13 chapters, 12 labs, full demo app
- - **Goal:** Build an Employee Management REST API with Spring Boot + JPA, connected to a JS/HTML frontend
- - **Demo app:** `cd java-springboot/demo-app && mvn spring-boot:run`
+ - **Goal:** Build an API with Spring Boot + JPA, connected to a JS/HTML frontend
+
+## Day 10: HTML/CSS
+ - [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp)
+ - [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
+ - [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
+
