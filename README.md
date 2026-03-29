@@ -29,10 +29,6 @@
 - [https://www.blooket.com/](https://www.blooket.com/) Turn database quizzes into fun multiplayer classroom games  
 - [https://www.gimkit.com/](https://www.gimkit.com/) Interactive quiz platform where students earn points while learning SQL  
  
-## Day 5 Networking
- - Networking Slides : https://github.com/Spiff77/gz-march-2026/blob/main/networking/Slides%20on%20Networking%20v1.1.pdf
- - Networking Source Code : https://github.com/Spiff77/gz-march-2026/tree/main/networking
-
 ## Days 6–9 Java + Spring Boot (3.5 days)
  - [Training Curriculum & Labs](java-springboot/README.md) — 13 chapters, 12 labs, full demo app
  - **Goal:** Build an API with Spring Boot + JPA, connected to a JS/HTML frontend
@@ -41,3 +37,8 @@
  - [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp)
  - [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)
  - [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
+
+## Day 11 Networking
+ - Networking Slides : (https://github.com/Spiff77/gz-march-2026/blob/main/Slides%20on%20Networking%20v1.2.pdf)
+ - Networking Source Code : https://github.com/Spiff77/gz-march-2026/tree/main/networking
+
