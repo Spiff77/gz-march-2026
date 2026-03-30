@@ -5,6 +5,10 @@
  - AI Rules: [https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md](https://bitbucket.org/neuedamats/portfoliomanager/src/3bb6c70fda7d66089125d57277fd741fb02e35ad/use-of-genai.md)
  - Presentation Guidelines:  [https://github.com/Spiff77/gz-march-2026/blob/main/Presentation%20Guidelines.pdf](https://github.com/Spiff77/gz-march-2026/blob/main/Presentation%20Guidelines.pdf)
 
+## Financial APIs
+ - [https://finnhub.io/](https://finnhub.io/)
+ - [https://finance.yahoo.com/](https://finance.yahoo.com/) - Take care of api usage limits
+ - 
 ## Others
  - Spotify playlist: [https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d] (https://open.spotify.com/playlist/1pUvVlurHO6nTyYb52cSQx?si=396070948fab49ca&pt=b80c717f8bd894049570986626d8386d)
 
