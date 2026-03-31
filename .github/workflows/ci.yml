@@ -32,10 +32,3 @@ jobs:
       - name: Run tests
         run: mvn -B test
         working-directory: java-spring/6-github-actions
-
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-results
-          path: java-spring/6-github-actions/target/surefire-reports/
