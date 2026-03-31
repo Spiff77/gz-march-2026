@@ -1,0 +1,56 @@
+### Get All Compact Discs
+GET http://localhost:8080/compact-discs
+
+### Get Compact Disc by ID
+GET http://localhost:8080/compact-discs/1
+
+### Create Compact Disc (without artist)
+POST http://localhost:8080/compact-discs
+Content-Type: application/json
+
+{
+  "title": "Abbey Road",
+  "numberOfTracks": 17
+}
+
+### Create Compact Disc with Artist
+POST http://localhost:8080/compact-discs
+Content-Type: application/json
+
+{
+  "title": "The Dark Side of the Moon",
+  "numberOfTracks": 10,
+  "artist": {
+    "id": 1
+  }
+}
+
+### Create Another Compact Disc
+POST http://localhost:8080/compact-discs
+Content-Type: application/json
+
+{
+  "title": "Sgt. Pepper's Lonely Hearts Club Band",
+  "numberOfTracks": 13,
+  "artist": {
+    "id": 1
+  }
+}
+
+### Update Compact Disc
+PUT http://localhost:8080/compact-discs/1
+Content-Type: application/json
+
+{
+  "title": "Abbey Road - Remastered",
+  "numberOfTracks": 17,
+  "artist": {
+    "id": 1
+  }
+}
+
+### Delete Compact Disc
+DELETE http://localhost:8080/compact-discs/1
+
+### Get Non-Existent Compact Disc (should return 404)
+GET http://localhost:8080/compact-discs/999

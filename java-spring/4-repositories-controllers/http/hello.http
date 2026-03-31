@@ -1,0 +1,11 @@
+### Simple Hello
+GET http://localhost:8080/hello
+
+### Hello with Request Parameter
+GET http://localhost:8080/hello/param?name=John
+
+### Hello with Path Variable
+GET http://localhost:8080/hello/Alice
+
+### Show Person
+GET http://localhost:8080/showPerson

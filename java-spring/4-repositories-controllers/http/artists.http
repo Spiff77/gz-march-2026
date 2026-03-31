@@ -1,0 +1,38 @@
+### Get All Artists
+GET http://localhost:8080/artists
+
+### Get Artist by ID
+GET http://localhost:8080/artists/1
+
+### Create Artist
+POST http://localhost:8080/artists
+Content-Type: application/json
+
+{
+  "name": "The Beatles",
+  "description": "Legendary British rock band from Liverpool"
+}
+
+### Create Another Artist
+POST http://localhost:8080/artists
+Content-Type: application/json
+
+{
+  "name": "Pink Floyd",
+  "description": "English progressive rock band"
+}
+
+### Update Artist
+PUT http://localhost:8080/artists/1
+Content-Type: application/json
+
+{
+  "name": "The Beatles",
+  "description": "Legendary British rock band from Liverpool - Updated Description"
+}
+
+### Delete Artist
+DELETE http://localhost:8080/artists/1
+
+### Get Non-Existent Artist (should return 404)
+GET http://localhost:8080/artists/999
